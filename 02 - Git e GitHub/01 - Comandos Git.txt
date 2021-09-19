@@ -54,9 +54,15 @@
 @> Subir arquivos para o repositorio remoto:
     [@  git remote add origin <endereço para push> @]
         #>> Irá criar uma origin, que seria o endereço do repositorio remoto;
-    [@  git push -v origin <nome da branc o padão é master>  @]
-        #>> Vai mandar um push para a origin (ou seja o repositorio remoto)
-        
+    [@  git push -v origin <nome da branch o padão é master>  @]
+        #>> Vai mandar um push para a origin (ou seja o repositorio remoto);
+    [@ git push origin <branch> @]
+
+
+@> Atualizar repositorio comandos pull e fetch:
+    [@  git pull  @]
+        #>> Esse comando vai baixr pos arquivos atualizados do repositorio remoto, ele deve ser usado junto com a origem que se quer;
+            #>> git pull origin master - vai baixar os arquivos do repositorio remoto
 
 !* Use esse material caso esquecça os comandos *!
 +---------------------------------------------------------+
