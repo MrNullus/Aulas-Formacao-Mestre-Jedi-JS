@@ -1,0 +1,16 @@
+=== ** === = ==== == === ** == 
+!        @ Node.JS @         !
+=== ** === = ==== == === ** == 
+
+*--------        ----------        ----------        --------*
+- ** {
+    +-> O que seria Node.JS?
+        +=> Seria um interpretador de codigo JavaScript Server-side, ou seja, no lado do servidor;
+
+        +=! É JS para o servidor (relacionado ao back-end);
+
+        +=> Ryan Dahl criou em 2009 o Node.JS ele é uma matematico e desenvolvedor Web;
+
+        +=> Node usa o sistema de gerenciamento de pacotes JavaScript NPM, criado por Isaac Schlueter e lançado em 2010;
+}
+*--------        ----------        ----------        --------*

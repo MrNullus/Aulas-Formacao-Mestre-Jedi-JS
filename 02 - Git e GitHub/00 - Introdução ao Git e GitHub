@@ -1,0 +1,75 @@
+****************************************
+|-         Primeiro, o que é VCS?     -|
+****************************************
+________________________________________
+
+    #> VCS significa: "Version Control System", ou sejá, Sistema de Controle de Versão;
+    #> Software de VCS servem para cuidar do gerenciamento desse versionamento de código;
+    #> Ou seja, no gerenciamento das versões do código;
+        @ versionamento siginifica: construir versões, fazer versões, varias versões;
+    #> Software de VCS funcionam como uma maquina do tempo podendo olhar as versões passadas e presentes;
+
+    #> TIPOS DE VCS:
+        #>> VCS Centralizado/Linear
+            $> Este tipo de VCS é antigo, o primeiro VCS mas ainda existe esse tipo, consiste em usuario estar conectado sempre ao servidor e mandando commit para um servidor central (por isso centralizado);
+                @ commit é quando você manda a versão para o repositorio central;
+        #>> VCS distribuido:
+            $> É um VCS mais moderno que não precisa mais estar conectado constantemente ao servidor, e o usuario tem um VCS local, ou seja, um repositorio local. E tento um Repositorio Remoto, para que possa comunicar esse Repositorio Local com o Repositorio Remoto;
+________________________________________
+
+
+****************************************
+|-           O QUE É GIT?             -|
+****************************************
+________________________________________
+
+    #> Git é um VCS distribuido, tendo como base repositorios com foco no gerenciamento e versionamento de código-fonte;
+        #>> site par baixar : "https:// git-scm.com";
+
+    + Um pouco mais sobre Git +
+        * O Git foi inicialmente projetado por Linus Torvalds pem 2005;
+
+        * A motivação principal foi de que a marioria dos desenvolvedores do Kernel do Linux foi decidiram desistir de acessar o sistema do Bitkeeper, que é um software propriedario;
+
+        * O objetivo principal do Git era controlar o versionamento do código do kernel do Linux, entretando, varios outros projetos começaram a adotar o Git para o controle de versão (VCS);
+
+  
+________________________________________
+
+
+****************************************
+|-           O QUE É GitHub?          -|
+****************************************
+_____________________________________________________________
+
+    #> GitHub é uma plataforma Web de hospedagem de código-fonte que utiliza o controle de versão Git;
+    #> Funciona basicamente, como uma rede social para programadores também;
+        #>> site : "https://github.com/";
+
+    +  Um pouco sobre o GitHub +
+        * Versionamento de código-fonte com Git;
+        * Plataforma Web para prjetos compartilhado Open Source;
+        * Existe versão paga para empresas com código privado para empresas;
+        * Fluxo  de trabalho be, definido;
+        * Acompanhar projetos via notificação;
+        * participar da comunidade Global;
+
+    + Workflow GitHub (Ciclo de Trabalho) +
+        * Branches - Criar copia de trabalho
+        * Commits - Submeter alterrações ao repositorio Git
+        * Pull Requests - Discussão sobre Commit à integrar 
+        * Issues/Mensagem - Discussão e análise de código, Bugs...
+            @ Issues são  discuções sobre projetos ou duvidas e também pode ser uma análise do cóigo
+        * Deploy - Preparar para produção 
+        * Merge - Mesclar código ao de produção
+_____________________________________________________________
+
+****************************************
+|-         Conceitos Importantes      -|
+****************************************
+_____________________________________________________________
+
+    $> Branch
+        #>> Branch significa ramo, Branches significam ramsos ou ramificações;
+        #>> Branch Master - essa branch seria a Branch principal, seria como um tronco da árvore que seria o repositorio referente a essa branch master, dita como a versão correta a versão que você colocaria em produção
+_____________________________________________________________

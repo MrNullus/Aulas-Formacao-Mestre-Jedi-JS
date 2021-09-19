@@ -1,0 +1,62 @@
+*=========***** ******=======-========****** *****======*
+@         Introdução JavaScript (ECMAScript)            @
+*=========***** ******=======-========***** ******======*
+
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
+#>> O que é JavaScript?
+- *** {
+    #=> JavaScript é uma ilinguagem de programação, pensada inicialmente para interatividade do usuario em paginas WEB, que seria interpretado e rodado em navegadores, porém atualmente roda em varios ambientes;
+    
+    #=> Tendo logo como objetivo principal interatividade com o usuario;
+
+    #=> Por meio de: click de botão, rolagem de mouse, preenchimentos de formularios, manipulação de elemento, estilização do CSS, entre outros
+}
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
+
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
+#>> Historia e surgimento do JS
+- *** {
+    #=> JavaScript foi criado por Brendan Eich no inicio de 1995, foi contradato pela Netscape para criar uma linguagen scripting que rodasse do lao do cliente(cliente server);
+
+    #=> Netscape foi criado por parte da equipe que criou o Mosaic em 1992 e Netscape surgiu em 1994;
+
+    #=> Brendan Eich é cofundador da Mozila Foundation em 1998;
+
+    #=> JavaScript foi batizada primeiro de Mocha, depois LiveScipt e no final de 1995 foi renomeado PAra JavaScript;
+
+    #=> Foi renomeado assim por motivos de marketing pois a Sun(Empresa que detem o Java, lançou o Java e estava fazendo muito sucesso) entaão fizeram uma parceria e por isso JavaScript. JavaScript é diferente de Java;
+}
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
+
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
+#>> ECMA Internacional e ECMAScript
+- *** {
+    #=> ECMA é uma associação industrial formada em 1961
+    preocupada unicamente com a padronização de sistemas de informação e comunicação;
+
+    #=> Brendan Eich e Netscape submetram o JavaScript ao ECMA Internacional para que ele se torne a linguagem de script padrão para os browsers;
+
+    #=> Em 1997 foi criado o padrão ECMA-262 como identificação para a padronização do JS, porém a Sun quis que o nome fosse ECMAScript. Que é uma especificação que informa como o padrão deve ser implementado nos enginners dos browsers da Web;
+
+    #=> ECMA -262 é definido por um comitê chamado TC39, que é um monte de membros da Google, Moila, Apple e varios outros;
+    #=> Versões do JavaScript
+
+    |-----------------------------------------------------|
+    |                        VERSÕES JS                   |
+    |-----------------------------------------------------|
+    |=============================|=======================|
+    |    Edição                   |    Ano                |
+    |=============================|=======================|
+    | ECMAScript 1                |   1997                |
+    | ECMAScript 2                |   1998(ISO/IEC 16262) |
+    | ECMAScript 3/3.1            |   1999                |  
+    | ECMAScript 4 (Abandonada)   |   2008                |
+    | ECMAScript 5                |   2009                |
+    | ECMAScript 5.1              |   2011                |
+    | ECMAScript 6 (ES6/ES2015)   |   2015                |
+    | ECMAScript 7                |   2016                |
+    | ECMAScript 8                |   2017                |
+    | ECMAScript Next             |                       |
+    |-----------------------------|-----------------------|
+}
+=-==-=-= =-==-=-= =-==-=-= =-==-=-= =-==-=-=
