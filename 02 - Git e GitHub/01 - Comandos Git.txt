@@ -48,7 +48,15 @@
 
 @> Clonar repositorios:
     [@  git clone <endereço SSH ou https do repositorio>  @]
-        #>> Esse comando vai clonar o repositorio desejado na tua maquina, ou seja, irá baixar o repositorio no seu PC;
+        #>> Esse comando vai clonar o repositorio desejado na tua maquina, 
+        ou seja, irá baixar o repositorio no seu PC;
+
+@> Subir arquivos para o repositorio remoto:
+    [@  git remote add origin <endereço para push> @]
+        #>> Irá criar uma origin, que seria o endereço do repositorio remoto;
+    [@  git push -v origin <nome da branc o padão é master>  @]
+        #>> Vai mandar um push para a origin (ou seja o repositorio remoto)
+        
 
 !* Use esse material caso esquecça os comandos *!
 +---------------------------------------------------------+
