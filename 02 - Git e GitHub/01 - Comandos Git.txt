@@ -63,6 +63,10 @@
     [@  git pull  @]
         #>> Esse comando vai baixr pos arquivos atualizados do repositorio remoto, ele deve ser usado junto com a origem que se quer;
             #>> git pull origin master - vai baixar os arquivos do repositorio remoto
+    [@  git fetch origin master @]
+        #>> Irá analisar se tem algumacoisa nova no reositorio remoto;
+        #>> Para analisar e já fazer o merge usa-se esse comando:
+            #>> git fetch origin/master - git merge origin/master - vai adicionar e analisar no repositorio remoto
 
-!* Use esse material caso esquecça os comandos *!
+!* Use esse material caso esqueça os comandos *!
 +---------------------------------------------------------+
