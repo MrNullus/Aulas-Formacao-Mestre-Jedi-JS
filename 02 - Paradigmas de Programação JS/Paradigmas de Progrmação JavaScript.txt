@@ -1,0 +1,15 @@
+****************-----------------******************
+    Paradigmas de Programação JavaScript
+****************-----------------******************
+----------------------------------------------------------------------
+    #>> JavaScript é uma linguagem de progrmação multiparadigma de programação;
+        $>> É uma linguagem de Programação Orientada a Objetos (POO);
+        $>> Faz uso de conceito de prótotipos;
+        $>> Faz uso de prótotipos;
+        $>> POO e prótotipos no JavaScript teve forte influencia da linguagem Self;
+
+    #>> JavaScript também faz uso fortemente de funções (programação funcional);
+    #>> Em JavaScipt funções são objetos de primeira classe. que podem ser passsadas como parâmetro em uma função ou mesmo ser armazenado em uma propriedade de um objeto (métodos);
+    #>> A programação funcional do JavaScript teve forte influencia da linguagem Scheme;
+    #>> JavaScript faz uso da programação assíncrona;
+----------------------------------------------------------------------

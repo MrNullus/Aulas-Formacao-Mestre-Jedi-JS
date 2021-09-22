@@ -1,0 +1,12 @@
+************************************************************
+|-*      Formas de carregamento JS em paginas HTML5      *-|
+************************************************************
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    @>> Formas de carregamento são as seguindes:
+        > Arquivo Externo;
+            >> No mesmo dominio;
+            >> Em diretorio;
+            >> JS interno
+        > Arquivo Interno;
+            >> JS no mesmo arquivo HTML
++++++++++++++++++++++++++++++++++++++++++++++++++++++
