@@ -62,6 +62,26 @@ _____________________________________________________________
             @ Issues são  discuções sobre projetos ou duvidas e também pode ser uma análise do cóigo
         * Deploy - Preparar para produção 
         * Merge - Mesclar código ao de produção
+		
+	+ Estados dos Arquivos no Git
+		# 1º estado
+		- vai pegar esses arquivso modificados que não está sendo guardados no repo local e mandar para a área  que vai guardar esses arquivos apra serem commitados
+			 git init/clone
+			   |
+			   \/          
+		[ Working Directory ]      
+			
+		# 2º estado
+		- vai servir como uma área que vai guardar os arquivos   prontos para serem commitados
+			git add
+			   |
+			   \/          
+		[ Starget Area ]      
+		
+		# 3º estado
+		- ultimo estado, esse é o estagio a qual o arquivo é mandado  para o repositorio local
+			git commit
+		[ Local  Repository ]
 _____________________________________________________________
 
 ****************************************
@@ -72,4 +92,15 @@ _____________________________________________________________
     $> Branch
         #>> Branch significa ramo, Branches significam ramsos ou ramificações;
         #>> Branch Master - essa branch seria a Branch principal, seria como um tronco da árvore que seria o repositorio referente a essa branch master, dita como a versão correta a versão que você colocaria em produção
+		
+	$>  Hash  Values  (SHA-1)
+		#>> Hashs values são snapshot("fotos"  dos arquivos commitados), para cada commit é feito um snapshot contendo um Hash Values no formato SHA-1 contento todas as informações e integridade do arquivo commitado
+		#>> Sha-1 são 40 caracteres em hexadecimais
+		#>> checksum - é uma chegagem que converte os dados em numero
+		#>> As informações contidas no Hash são:  Autor, Commit, Parent (ficaria o nome do hash parent, ou seja, o primeiro hash)
+		
+	$> Head
+		#>> Head serve como um ponteiro que indica qual ponto da linha do tempo está
+		#>> (Head -> Master) indica que o Head está apontando para a Master
+		#>> Podendo voltar em qualquer ponto da historia do repositorio
 _____________________________________________________________
