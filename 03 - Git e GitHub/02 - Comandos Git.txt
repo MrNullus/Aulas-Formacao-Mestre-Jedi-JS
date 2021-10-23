@@ -1,0 +1,72 @@
+****************************************
+|-        Comandos Git Essencias      -|
+****************************************
++---------------------------------------------------------+
+!* Principais Comandos do Git *!     
+!* Deixe sempre a ocultação de extensões desativadas *!
+!* Para acessar o Git Bash de um projeto basta apertar botão direito do mouse e ir em "Git Bash Here" *!
+
+[@    git status    @]
+    #>> Esse comando serve apra verificar o status do projeto, referente ao repositorio a que se refere;
+    #>> Vai mostrar se existe um repositorio, se tem algum arquivo que não está sendo assistido pelo Git, se tem algum commit a ser feito;
+
+[@   git add <name file>  @]
+    #>> Com esse comando se deve usar para adicionar arquivos no index do Git para assim ele conseguir assistir e usar esse arquivo;
+
+@> Para que se possa fazer commmits se deve configurar primeiro a conta, assim podendo fazer commits desse jeito abaixo:  
+    [@  git config user.email 'email' @]
+        #>> Esse comando define o e-mail;
+            #>>> Se usar --global vai servir para todos os projetos globalmente:
+                ex: | git --global config user.email 'email'
+    [@ git config user.name 'name user' @]
+        #>> Esse já define o nome de usuario;
+            #>>> Se usar --global vai definir esse nome de usuario globalmente para todos os projetos:
+                ex: | git config --global user.name 'name user'
+[@  git commit -m  'Informações do commit' @] 
+// O commit deve estar entre aspas simples e -m
+    #>> Esse código serve para definir commits
+    #>> Commits são submissões de alterrações ao repositorio local ou remoto
+
+[@  git log  @]
+    #>> Serve para mostrar o historico de commits do repositorio, mostrando o autor(o usuario) do commit, data e hora, a branche e o commit...;
+
+@> Comandos para trabalhar com branches:
+    [@  git branch  @]
+        #>> Serve para mostrar as branchs existentes;
+    [@  git branch <nome da branch>  @]
+        #>> Criara uma nova branch;
+    [@  git checkout <nome da branch>  @]
+        #>> Vai servir para entrar na branch,é só colocar o nomeda branch certo;
+    [@  git branch -v  @]
+        #>> Esse comando servirá para mostrar qual branch foi o ultimo commit realizado;
+    [@ git merge <nome da branch> @]
+        #>> Tem a finalidade de unir branchs, sendo que, para que isso acontece deve estar na branch que quer unir e ter o nome da branch a ser unida;
+        #>> Quando fizer o merge a branch que está no momento receberá tudo da branch a ser unida mas ela não vai receber nada da outra;
+        
+    [@  git branch -d <nome da branch>  @]
+        #>> Vai servir para apagar a branch a qual você colocou o nome;
+
+@> Clonar repositorios:
+    [@  git clone <endereço SSH ou https do repositorio>  @]
+        #>> Esse comando vai clonar o repositorio desejado na tua maquina, 
+        ou seja, irá baixar o repositorio no seu PC;
+
+@> Subir arquivos para o repositorio remoto:
+    [@  git remote add origin <endereço para push> @]
+        #>> Irá criar uma origin, que seria o endereço do repositorio remoto;
+    [@  git push -v origin <nome da branch o padão é master>  @]
+        #>> Vai mandar um push para a origin (ou seja o repositorio remoto);
+    [@ git push origin <branch> @]
+
+
+@> Atualizar repositorio comandos pull e fetch:
+    [@  git pull  @]
+        #>> Esse comando vai baixr pos arquivos atualizados do repositorio remoto, ele deve ser usado junto com a origem que se quer;
+            #>> git pull origin master - vai baixar os arquivos do repositorio remoto
+    [@  git fetch origin master @]
+        #>> Irá analisar se tem algumacoisa nova no reositorio remoto;
+        #>> Para analisar e já fazer o merge usa-se esse comando:
+            #>> git fetch origin/master - git merge origin/master - vai adicionar e analisar no repositorio remoto
+
+!* Use esse material caso esqueça os comandos *!
++---------------------------------------------------------+
