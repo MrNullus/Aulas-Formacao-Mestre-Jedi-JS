@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Missão Estelar JS</title>
+
+        <style rel="stylesheet">
+            *{
+                margin: 0; padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                min-width: 100vh; min-height: 100vh;
+                background-color: #0e0c0c;
+                color: #f4f4f4;
+            }
+
+            h1{
+                color: #dc2121;
+                font-size: 4em;
+                font-weight: 600;
+                padding-bottom: 1em;
+            }
+
+            button{
+                padding: 1rem;
+                border: 3px solid #fff;
+                border-radius: 12px;
+                background: transparent;
+                color: #fff;
+                font-size: 1.2rem;
+                cursor: pointer;
+                transition: all .2s linear;
+            }
+            button:hover{
+                background: #dc2121;
+                color: #f8f8f8;
+                border: 1px solid #fff;
+            }
+
+        </style>
+    </head>
+    <body onload="eventoOnload()">
+        <h1>Missão Estelar JS</h1>
+        <button onclick="eventoOnclick()">Executar Missão</button>
+
+        <script src="./js/js.js"></script>
+    </body>
+</html>
