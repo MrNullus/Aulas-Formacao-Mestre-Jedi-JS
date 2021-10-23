@@ -1,0 +1,11 @@
+=============================
+    Comentários em JS
+=============================
+-----------------------------------------------------
+    @> Nao será lido pelo navegador;
+    @> Serviria para explicar algo no codigo para devs;
+
+    # Formas de adicionar comentarios #
+        $ comentários de uma linha usa-se -> //;
+        $ comentários de bloco usa-se -> /**/;
+-----------------------------------------------------
