@@ -1,0 +1,21 @@
+##############  #########  ##################
+    Estrutura léxica/ e sintatica do JS
+##############  #########  ##################
+_____________________________________________________________
+    @> Estrutura Lexa
+        #:> Essa estrutura nada mais é que a responsavel por interpretar os codigos do JS, seria como a gramatica;
+    @> Estrutura Sintatica
+        #:> Sintatica envolve toda estrutura ortografica, ou seja, a estrutura que cuida das regras dos comandos para montar algoritmos sendo ela que rege como deve ser escrito toda a bagaça;
+    
+    ! Conclussão - estrutura lexa e sintatica são estruturas que servem como regras para a escrita de algoritmo para softwares !
+
+    #>> Sendo algumas regras importantes léxas e sintaticas::>
+        & No JS a codificação Unicode é feita pela Serie UTF 16 (Responsavel por de fato transformar em bytes);
+        & Comentários;
+        & Declarações;
+        & Variaveis;
+        & Palavras Reservadas;
+        & Uso de ponto e virgula de uma instrução; 
+        & Uso de valores literais;
+_____________________________________________________________
+
