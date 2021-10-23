@@ -1,0 +1,24 @@
+=================================
+    Tipos de dados
+=================================
+-----------------------------------------------------
+    # Tipos de dados 'Primitivos' #
+        @>> Primitivos pois eles definiram o tipo da variavel vai guardar fisicamente na memoria;
+        @>> Sendo eles:
+            - String =+> sequencia de caracteres - texto (tudo dentro de aspas simples ou duplas ou apostrofo);
+            - Number =+> numeros inteiros (int) ou pontos flutuantes (float);
+            - Boolean =+> valor lógico (true/false);
+            - Undefined =+> contém apenas o valor undefined - ou seja indica que a variavel não foi inicializada
+            - Null =+> contém o valor null - indica ausência de valor em uma variavel;
+
+    # Tipos de Dados 'Objetos Complexos' (Tipos de refêrencia) #
+        @> Se chamam assim pois fisicamente não recebem esse tipo, apenas são uma referencia;
+        @>> Sendo eles:
+            - Object =+> Conjunto de dados agrupados por pares de chave e valor, contém propriedades e métodos;
+            - Array =+> É um tipo especial que armazena dados ordenados sequencialmente via index;
+            - Funciton =+> Tipo especial que tem código que pode ser executado; 
+            - Date =+> Tipo especial para trabalhar com datas e minutos;
+            - RegExp =+> Tipo especial para trabalhar com expressão regular;
+            - Error =+> Tipo especial para manipular e apresentar errros em tempo de execução;
+
+-----------------------------------------------------
