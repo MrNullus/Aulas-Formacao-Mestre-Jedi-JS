@@ -1,0 +1,63 @@
+##############  #########  ##################
+            Linguagem Markdown
+##############  #########  ##################
+_____________________________________________________________
+
+    @> O que é Markdown?
+        #>> Markdown é uma linguagem de Marcação criada por, John Gruber e Aaron Swartz cujo objetivo é facilitar a criação de conteudo formatado e ser mais simples que HTML;
+        #>> Outra preocupação dos criadores é facilidar a conversão do Markdown para HTML;
+        #>> No GitHub é muito usada em arquivos README.md em Issues e Requests;
+    @> Markdown Simples:
+        $> Italico:
+           # ex: 
+                _Curso em video_
+                *Curso em Video*
+        $> Negrito:
+            # ex:
+                __Curso em Video__
+                **Curso em Vide**
+        $> Riscado (strike ou tachado):
+            # ex:
+                ~~Curso em Video~~~
+
+    ! Todos essas marcações podem ser misturadas, só que deve sequir o parão, ou seja, sem espaços ou incorreções na escrita !
+
+        $> Listas
+            > Listas ordenadas, é so começar o primeira linha com um numero e ponto, sendo que os itens sucessores estaram em ordem consecutiva:
+                # ex:
+                // Para alista funcionar deve ter o número e depois o ponto juntos
+                    1. Brasil
+                    2. Canadá
+
+        ! Se inserir três ou mais espaços antes dos marcadores (ou seja dos numeros) o nivel do item irá mudar, será colocado em outro nivél !
+
+            > Listas com marcadores, é só usar asterisco seguido de um espaço ou um traço seguido de espaço no inicio da linhapara que ele seja parte de uma lista demarcada:
+                # ex:
+                    * Pão com queijo
+                        * Pão com mortadela
+                    * Pão de batataaa
+                    * Pão de alho                    
+
+            > Listas de tarefas, colocando o sinal -[] ou -[x] antes de cada item, criamos listas de tarefas com itens marcados ou descarcados:
+                # ex:
+                    -[x] Pão de batataaa
+                    -[x] Cafê 
+                    -[] Bulachaa
+        $> Titulos para criar titulos use # de uma até seis, cada uma equivale ao H1, ou seja, cada um tem seu nivel de titulo:
+            # ex:
+                # Titulo nivel 1
+                ## Titulo nivel 2
+                ### Titulo nivel 3
+                #### Titulo nivel 4
+                ##### Titulo nivel 5
+                ###### Titulo nivel 6
+        $> Linhas horizontais, para criar isso é só usar --- ou ***:
+            # ex:
+                ---
+                Testes testes Testes
+                ***
+    <!  
+        Tem mais coisa, porém, é só olhar esse mateiral para saber mais vai no link, abaixo:
+            https://github.com/gustavojs417/git-github/blob/master/manuais-PDF/guia-markdown.pdf
+    !>
+_____________________________________________________________
