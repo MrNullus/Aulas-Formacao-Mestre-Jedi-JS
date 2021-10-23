@@ -1,0 +1,33 @@
+############-----#########---########----#######
+        Variáveis e Identificadores
+############-----#########---########----#######
+=======================================================
+    # Variáveis #
+        @>> Recurso usado por linguagens de programação em que consiste ser um espaço na memoria sendo reservado pelo 'nome' (sendo ele o identificador) que recebe um determinado valor ficando guardado na memoria durante o ciclo de vida da aplicação;
+
+    # Identificadores #
+        @>> É propriamente o nome de recursos da programação, sendo usado para nomear e acessar eles assim que necesario. Ex(variaveis, funções, propriedades);
+
+    # Regras de Escrita # 
+        @>> Iniciar com (usar):
+            + a - z e A-z;
+            + _ ou $;
+        @>> Não iniciar com numeros ou caracterers especiais
+        @>> Após o primeiro caractere número é possível usar números
+    ! Se for para zerar uma variavel use 'null' e não 'undefined' !
+
+    # Case Sensitive #
+        @>> é um recurso que o JS usa que consiste em ter uma sensitividade para nomes de variaveis por exemplo, sendo sensivo com palavras maiusculas ou minusculas;
+            # ex: 
+            // Como as variaveis são escritaas com caixa alta diferente o JS trata elas diferentes, como variaveis distintas, sendo possivel fazer isso
+                var nome = 'Ana';
+                var NOME = 'Ana';
+
+    # CamelCase #
+        @>> É um recurso em que consiste em escrever nomes de variaveis que são compostas(uma ou mais palavras), funções e etc com a primeira letra minuscula e a proxima letra maiuscula;
+            #ex:
+                var telefoneFixo = '2378-2356';
+                var nomeCompleto = 'Gustavo Henrique';
+    ! Essa regra não se aplica em funções contstrutoras!
+    ! Palavras reservadas sempre em minusculas!
+=======================================================
