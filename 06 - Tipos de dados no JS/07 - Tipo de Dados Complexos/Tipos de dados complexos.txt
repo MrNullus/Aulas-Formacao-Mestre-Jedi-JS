@@ -1,0 +1,57 @@
+=================================
+  & Tipos de dados Complexos & 
+=================================
+-----------------------------------------------------
+    #+  Object - Criando de forma literal e por construtor +#
+        @>> Obejetos são o tipo basefundamental para o JavaScript
+        @>> Eles são como formas, eles possuem propriedades, metodos e nomes. Sendo composto por um par de chaves e valor
+        @>> As propriedades de um objeto não são tipadas ou seja, podendo conter diversos tipos de dados como string, number, boolean, array, functions, objetos, etcs;
+        @>> Objetos podem ser criador de forma literal ou com uma função construtura;
+
+      #+  Array - Criando de forma literal e com construtor +#
+        @>> É um conjunto ordenado de valores, uma lista ordenada com posições numericas que começa do zero e que se chama de índice;
+        @>> Os elementos de um Array não são tipados ou seja não precisam der definidos o tipo de dados, podendo receber varios e diferentes tipos de dados;
+        @>> Arrays podem ser criador através de:
+          $ forma literal - ou seja - colchetes e valores
+          $ forma construtor - sendo ela com o metodos construtor new Array()
+
+      #+   Function - declaração, parametros e retorno  +#
+        @>> É um bloco de codigo no JavaScript sendo definida uma vez;
+        @>> Pode ser chamado para execução várias vezes;
+        @>> Uma função pode receber parâmetros;
+        @>> A função pode retornar algo;
+        @>> Sintaxe:
+            function nomeFunction(parametros){
+              // bloco de codigos;
+            }
+
+      #+   Date - tipo que trabalha com data  +#
+      @>> Representa data e/ ou hora;
+      @>> Date() não tem sintaxe literal, deve ser instanciado com o operador new Date();
+      @>> Objetos Date são baseados no valor do UTC;
+
+      $>> Representações:
+            - new Date(); // Retorna um Object Date
+            - new Date(valor); // Valor inteiro em milissegundos com base no UTC;
+            - new Date(dataString); //  Date Time String Format - DDTHH:mm:ss
+            - new Date(ano, mês, dia, hora, minuto, milissegundo);
+    #+    RegExp - Expressão Regular    +#
+      @>> Uma expressão regular é um conjunto de string que corresponde a um padrão que sendo ela determinadasem um texto;
+            $> Ou seja são strings feitas para serem uma regra a serem determinadas em um texto;
+      @>> O objeto RegExp representa uma expressão regular, snedo asim um padrão;
+      @>> Pode ser declarada de forma literal e ou por um construtor;
+      @>> Uso de RegExp:
+            - Vai servir para padrões;
+            - Servir para pesquisas de strings (método RegExp.text());
+            - Extração de dados;
+            - Substituição de caracteres;
+            - Validação de dados | Mascaras para campos(CPF, telefone, email, etc);
+
+    #+   Error - Objeto para lançar erros  +#
+      @>> Esse objeto serve para achar errors e assim conseguir trata-los;
+      @>> Um error pode fazer com que o interpretador JS lance uma instrução ou usa-la para informar uma exceção excepcional (instrução 'throw') a ser tratada;
+      @>> O tratamento de erros e exceções são tratadas por um bloco try/cath/finally;
+      @>> A rclasse Error tem varias subcategorias de error, em que o objeto Error disparado possui uma propriedade chamada 'name', com o tipo de erro e outra chamada 'message' contento informações sobre o error;
+      @>> Após ocorrer um error no interpretador JS é a execução é interrompida imediatamente;
+
+-----------------------------------------------------
