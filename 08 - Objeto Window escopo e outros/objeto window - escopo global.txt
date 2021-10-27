@@ -1,0 +1,14 @@
++----------------------------------------+
+#      Objeto Window - Escopo Global     #
++----------------------------------------+
+==============================================
+    @>> O objeto window se trata de uma representação do 'Window'(janela do browser). Implementa a interface da janela, sendo uma auto-referencia;
+    @>> O window é a nivel global da aplicação, ou seja, pode ser acessado em qualquer parte do codigo JS. Contém internamete o objeto document que representa a árvore DOM(Document Object Model, Modelo Documento do Objeto) nele contém todos os documentos HTML sendo eles os elementos contidos no HMTL;
+    @>> Cada jabela do browser é um window diferente do outro com uma árvore do DOM diferente sendo o objeto document diferente;
+    @>> O objeto window declara varios recursos globais:
+        - Propriedades: undefined, null e infinity;
+        - Funcitons: eval(), isFinite(), isNaN(), parseInt(), parseFloat...;
+        - Funções Construturas: Object(), Array(), String(), Number(), Boolean(), Function()...;
+        - Objetos: document, console, Math...;
+
+==============================================

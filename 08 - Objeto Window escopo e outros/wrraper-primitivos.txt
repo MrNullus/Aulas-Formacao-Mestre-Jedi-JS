@@ -1,0 +1,6 @@
+==========================
+    @ Tipos Wrraper @
+==========================
+=-==-=-==-==-=-==-==-=-==-==-=-==
+    #> Os tiopos Wrraper primitivos são tipos objetos referencia, criados automaticamente de forma oculta, sempre que um valor ou método de objetos String, Number e Boolean sejam acessados via forma literal;
+=-==-=-==-==-=-==-==-=-==-==-=-==

@@ -1,0 +1,14 @@
+======================================
+        Escopo de variaveis
+======================================
+--------------------------------------------
+    # Escopo de variaveis é o lugar aonde essa variavel está #
+        #>> Dois tipo de escopo:
+            - Global :>
+                $> Nesse escopo se refere-se ao escopo em que a variavel pode ser acessada no programa inteiro;
+            - Local  :>
+                $> No escopo local está se referindo ao lugar aomde a variavel está, porém, só existe ali só podendo ser acessadas lá;
+                $> Isso ocorre qunado a variavel é criada não dentro do programa principal, ou seja, dentro de funções por exemplo;
+    # Precedencia #
+        #>> É a ordem de precedencia que a variavel é executada, dependendo da precedencia o valor da variavel é destruido num escopo e usado o valor do escopo que o precede;  
+--------------------------------------------

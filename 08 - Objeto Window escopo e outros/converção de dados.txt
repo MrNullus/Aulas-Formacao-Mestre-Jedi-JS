@@ -1,0 +1,9 @@
+===================================
+    @ Conversões de tipos de dados @
+===================================
+-----------------------------------
+    #>> JavaScript é fracamente tipada, não sendo necessario informr o tipo de dado quando declaramos uma variavel;
+    #>> Todo objeto, variavel e valor tem uma representação booleana true ou false (Ex: avaliações de expressões logicas);
+    #>> JavaScript sempre faz converções quando necessario, se temos que dividir a String '10' por 2 ele converte em Number a String e realiza o calculo, caso contrario retorna NaN;
+    
+-----------------------------------
