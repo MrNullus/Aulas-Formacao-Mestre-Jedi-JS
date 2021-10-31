@@ -18,5 +18,6 @@
   "C_Cpp_Runner.warningsAsError": false,
   "cSpell.words": [
     "objetivo"
-  ]
+  ],
+  "cmake.configureOnOpen": false
 }
