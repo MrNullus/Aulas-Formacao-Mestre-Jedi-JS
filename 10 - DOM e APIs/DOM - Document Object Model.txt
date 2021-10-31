@@ -1,0 +1,36 @@
+=========================================
+    #   DOM - Document Object Model   #
+=========================================
+----------------------------------------------------
+    @>> O DOM (Modelo de Objeto de Documento) é uma interface e linguagem neutra que permite que programas e scripts acessem e atualizem dinamicamente o conteudo, da estrutura e estilo dos documentos HTML através de APIs;
+
+    @>> O objetivo do DOM é definir uma interface programatica acesso e manipulação de HTML e XML;
+
+    # Niveis do DOM #
+        @>> DOM nivel 0 (DOM Legado): APIs desenvolvidas de formas independentes pelos browsers para manipulação do HTML (Antes da padronização do DOM pela W3C);
+        @>> DOM nivel 1: Padronização do DOM pela W3C em 1998 para todos os browsers. Fornece um modelo completo para um documento HTML ou XML, incluindo meios de alterar qualquerporção documento;
+        @>> DOM nivel 2: Lançado em 2000, com desta que para os modulos: Code (API diferenciada para manipular XML/HTML ex: getElementById), Views(área de visualização do documento), Events(Eventos), Style(Manipulação de CSS) e Namesscpace XML;
+        @>> DOM nivel 3: Lançado em 2004, adicionou suporte XPath e manipulação de evento pelo teclado,assim como uma interface de serialização de documento XML;
+        @>> DOM nivel 4: Lançado em 2015, Mutation Observers (Observadores de mudança) como um substituton para Mutatio Events (Eventos de mudança) no DOM;
+
+    # Estrutura Arvore do DOM  #
+        @>> Nessa estrutura existe os elementos: 
+            - Parents => Seria o pai;
+            - Siblings => Seriam os irmãos;
+            - Childs => Seriam os filhos;
+
+    # Metodos do DOM #
+        // Pesquisa e recuperação de elementos:
+            - getElementById;
+            - getElementByTagName;
+            - getElementByName;
+            - getElementByClassName;
+            - querySelector;
+            - querySelectorAll;
+            [! OBS: Pode retornar HTMLElement, HTMLCollection e NodeList !]
+        // Criar, adicionar, remover e substituir elementos:
+            - createElement e createTextNode;
+            - createElement e insertBefore(InnerHTML);
+            - removeChild e replaceChild;
+
+----------------------------------------------------
