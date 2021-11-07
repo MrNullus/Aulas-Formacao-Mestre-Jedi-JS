@@ -1,0 +1,30 @@
+@------------------------------@
+      #  Operadores JS  #
+@------------------------------@
+________________________________________________________________________________________________________
+
+  $> Operadores JS - são divididos em 6 grupos, eles servem para efetuar calculos aritméticos,
+  testes lógicos, atribuir valor ou efetuar comparações, entre outros...;
+  $> São divididos em:
+    - Operadores aritméticos;
+    - Operadores de atribuição;
+    - Operadores de comparação;
+    - Operadores lógicos (ou relacionais);
+    - Operador condicional ternário;
+    - Operador unitário;
+
+  # Operadores aritméticos #
+    #> Vai ser usado para cálculos.
+    -> [+] - adição => usado para somar | ex: 12 + 12;
+        // vai se comportar de forma diferente se um Avalor não for Number
+       // se for String + Number => vai concatenar ou se for String + String => vai concatenar
+    -> [-] - subtração => usado para subtrair | ex: 12 - 23;
+      //Serve também como operador unario, se colocado na frente de um numero irá negalo | ex: -12
+    -> [*] - multiplicação => usado para multiplicar | e: 12 * 2;
+    -> [/] - divisão => usado para dividir | ex: 12 / 2;
+    ? Lembrando: se usar -, *, / com string e number o interpretador JS vai transformar a String
+    em Number ou retornar NaN (Not a Number - Não é um numero);
+    -> [++] - incremento => usado para incrementar valor (sendo apenas o valor = 1) | ex: ++1, ++variavel
+    -> [--] - decremento => usado para decrementar um valor (sendo que decrementa - 1) | ex: --9, --variavel
+    -> [**] - exponenciação => usado para potenciação | ex: 2**5 (seria 2 elevado a quinta potência ou a cinco)
+________________________________________________________________________________________________________
