@@ -53,8 +53,24 @@ ________________________________________________________________________________
 
     # Operadores logicos #
       # Usados como auxiliar para os testes logicos
-      -> && (AND);
-      -> || (OR);
-      -> ! (NOT);
+        -> && (AND);
+        -> || (OR);
+        -> ! (NOT);
+
+    # Operador Condicional Ternário # 
+      ? Como recebe três operandos ele recebe o nome de ternário |> sendo ele o unico que faz isso
+      # Vai servir como uma estrutura if-else, só que mais simples. Sendo apenas de uma linha
+      #> Sintaxe:
+        condição ? valor1 : valor2
+
+  # Outros Operadores #
+    -> typeof() => verificar tipo;
+    -> instaceOf => relacional;
+    -> in => relacional;
+    -> '.' e '[]' => membro;
+    -> new => criar uma nova instancia - (class);
+    -> () => chamada e agrupadmento de expressão;
+    -> delete => deletar propriedades de objeto e índices;
+    -> void => não retornar valor;
 
 ________________________________________________________________________________________________________

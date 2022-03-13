@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- link file bootstrap css -->
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+        <title>Template com HTML5 e Bootstrap</title>
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                <button class="btn btn-outline-success" type="submit">
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <br>
+
+            <div class="row">
+                <div class="col-sm">
+                    <h3>Form com HTML Simples</h3>
+                    <h2>Cdastro de Clientes</h2>
+
+                    <form action="/" method="POST" id="formHTML">
+                        <div>
+                            <label for="nomeMenu">Nome</label>
+                            <input type="text" name="nomeHTML" id="nomeHTML"/>
+                        </div>
+
+                        <div>
+                            <label for="emailHTML">Nome</label>
+                            <input type="text" name="emailHTML" id="emailHTML"/>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" name="emailPromocionalCheckHTML" 
+                            id="emailPromocionalCheckHTML"/>
+                            <label for="emailPromocionalCheckHTML">Rceber email promocional?</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="formContatoRadioHTML">Contato por Telefone</label>
+                            <input type="radio" name="formContatoRadioHTML" id="formContatoTelefoneRadioHTML"/>
+                            <label for="formContatoRadioHTML">Contato por email</label>
+                            <input type="radio" name="formContatoRadioHTML" id="formContatoEmailRadioHTML"/>
+                        </div>
+                        
+                        <div>
+                            <select name="estadoSelectHTML" id="estadoSelectHTML">
+                                <option selected>Selecione um estado</option>
+                                <option selected value="CE">CE</option>
+                                <option selected value="SP">SP</option>
+                                <option selected value="RJ">RJ</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <button type="submit">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm">
+                    <h3>Form com HTML e Bootstrap</h3>
+                    <h2>Cdastro de Clientes</h2>
+
+                    <form action="/" method="POST" id="formBoot">
+                        <div class="form-group">
+                            <label for="nomeBoot">Nome</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Informe seu nome.">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="emailBoot">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" name="emailBoot" laceholder="Informe seu email.">
+                        </div>
+
+                        <div class="custom-control custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="emailPromocionalCheckBoot" name="emailPromocionalCheckBoot">
+                            <label class="custom-control-label" for="emailPromocionalCheckBoot">Receber email promocional?</label>
+                        </div>
+                        <br>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="formContatoTelefoneRadioBoot" name="formContatoRadioHTML" class="custom-control-input">
+                            <label class="custom-control-label" for="formContatoRadioHTML">Contato por Telefone</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input type="radio" id="formContatoEmailRadioBoot" name="formContatoRadioBoot" class="custom-control-input">
+                            <label class="custom-control-label" for="formContatoRadioBoot">Contato por email</label>
+                        </div>
+                        <br>
+
+                        <div>
+                            <select class="custom-select"name="estadoSelectBoot" id="estadoSelectBoot">
+                                <option selected>Selecione um estado</option>
+                                <option selected value="CE">CE</option>
+                                <option selected value="SP">SP</option>
+                                <option selected value="RJ">RJ</option>
+                            </select>
+                        </div>
+                        <br>
+
+                        <div>
+                            <button type="button" class="btn btn-primary">Cadastrar</button>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+       
+        <footer>
+            <div class="card text-center">
+                <div class="card-header">
+                    Featured
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </div>
+        </footer>
+
+        <script src="./js/jquery-3.6.0.min.js"></script>
+        <script src="./js/popper.min.js"></script>
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
+</html>

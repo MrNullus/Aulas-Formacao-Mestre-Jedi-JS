@@ -1,0 +1,14 @@
+@--------------------------------@
+    #  Estruturas de Repetição  #
+@--------------------------------@
+________________________________________________________________________________________________________
+
+    #>> Vai servir para repetir determidado bloco de codigos, verificando a partir de uma condição lógica;
+
+    @> Tipos de Estruturas de Repetição (loop):
+        -> for
+        -> while
+        -> do-while
+        -> for...in | for...of
+
+________________________________________________________________________________________________________
